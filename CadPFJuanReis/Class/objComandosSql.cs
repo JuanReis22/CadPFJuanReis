@@ -10,18 +10,19 @@ namespace CadPFJuanReis
 {
     public class objComandosSql
     {
-        public static void InsertCadUsu(string Usuario, string Email, string Telefone, string Senha)
+        public static void InsertCadUsu(string Usuario, string Email, string Telefone, string Senha, byte[] Imagem)
         {
             DatabaseManager InsertCadUsu = new DatabaseManager();
-            string InsertQuery = @"INSERT INTO CadUsu (usuario,email,telefone,senha)
-            VALUES (@usuario,@email,@telefone,@senha)";
+            string InsertQuery = @"INSERT INTO CadUsu (usuario,email,telefone,senha,imagem)
+            VALUES (@usuario,@email,@telefone,@senha,@imagem)";
 
             SqlParameter[] parameters = 
             {
                 new SqlParameter("@usuario", Usuario),
                 new SqlParameter("@email", Email),
                 new SqlParameter("@telefone", Telefone),
-                new SqlParameter("@senha", Senha)
+                new SqlParameter("@senha", Senha),
+                new SqlParameter("@imagem",Imagem)
             };
 
             InsertCadUsu.ExecuteNonQuery(InsertQuery, parameters);

@@ -189,6 +189,7 @@
             this.Controls.Add(this.txt_NomeCadUsu);
             this.MaximizeBox = false;
             this.Name = "TelaCadUsu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro Usuário";
             ((System.ComponentModel.ISupportInitialize)(this.pb_FotoUsu)).EndInit();
             this.ResumeLayout(false);

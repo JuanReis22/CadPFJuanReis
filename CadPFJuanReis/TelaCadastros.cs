@@ -19,14 +19,12 @@ namespace CadPFJuanReis
 
         private void btn_CadastrarUsuario_Click(object sender, EventArgs e)
         {
-            this.Hide();
             TelaCadUsu TelaCadUsu = new TelaCadUsu();
             TelaCadUsu.ShowDialog();
         }
 
         private void btn_CadastrarPessoa_Click(object sender, EventArgs e)
         {
-            this.Hide();
             TelaCadPF TelaCadPF = new TelaCadPF();
             TelaCadPF.ShowDialog();
         }
