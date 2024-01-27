@@ -161,10 +161,10 @@
         RK5CYII=
 </value>
   </data>
-  <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btn_Foto.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        6QAAAOkBVJIUSwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAWdSURBVFhH7ZZ5
+        6AAAAOgBhtX2rwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAWdSURBVFhH7ZZ5
         TFRHHMdXEBH2vkDk0hYVaUG8i4CYsuwurLvcIogoFuQSRORSUbGVehVaJF6xtVJUFBCUYmLR9UIRmphG
         rNUqjdFqW23T1h77dtn33q8zTyAcj2A0/lV/ySczO+83v993Zuf95nFe22t7AZtnY2NrQC30xcpq1FPU
         BiBe2NIQBd14dtPzOxWBzUkgFP2ZW1AMKek5kJya3UtGVj5tY2PzGPs8cx1kbPH6GURELQZ3Dy+8omIM

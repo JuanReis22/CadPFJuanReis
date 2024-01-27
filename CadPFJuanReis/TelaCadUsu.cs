@@ -20,7 +20,7 @@ namespace CadPFJuanReis
 
         private byte[] ConvertImageToByteArray(System.Windows.Forms.PictureBox pictureBox)
         {
-            //criado a array para utilizar o metodo de gravação de imagem
+            // Método para converter uma imagem para um array de bytes
             MemoryStream ms = new MemoryStream();
             pictureBox.Image.Save(ms, pictureBox.Image.RawFormat);
             return ms.ToArray();

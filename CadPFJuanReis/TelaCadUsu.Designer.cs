@@ -43,7 +43,7 @@
             this.pb_FotoUsu = new System.Windows.Forms.PictureBox();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.btn_VoltarCadUsu = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_Foto = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.pb_FotoUsu)).BeginInit();
             this.SuspendLayout();
@@ -153,17 +153,16 @@
             this.btn_VoltarCadUsu.TabIndex = 11;
             this.toolTip1.SetToolTip(this.btn_VoltarCadUsu, "Voltar para tela de cadastros");
             this.btn_VoltarCadUsu.UseVisualStyleBackColor = true;
-            this.btn_VoltarCadUsu.Click += new System.EventHandler(this.btn_VoltarCadUsu_Click);
             // 
-            // button1
+            // btn_Foto
             // 
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(433, 188);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(62, 36);
-            this.button1.TabIndex = 12;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btn_Foto.Image = ((System.Drawing.Image)(resources.GetObject("btn_Foto.Image")));
+            this.btn_Foto.Location = new System.Drawing.Point(433, 188);
+            this.btn_Foto.Name = "btn_Foto";
+            this.btn_Foto.Size = new System.Drawing.Size(62, 36);
+            this.btn_Foto.TabIndex = 12;
+            this.btn_Foto.UseVisualStyleBackColor = true;
+            this.btn_Foto.Click += new System.EventHandler(this.button1_Click);
             // 
             // openFileDialog1
             // 
@@ -174,7 +173,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(585, 236);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_Foto);
             this.Controls.Add(this.btn_VoltarCadUsu);
             this.Controls.Add(this.pb_FotoUsu);
             this.Controls.Add(this.lbl_CadastrarUsuario);
@@ -212,7 +211,7 @@
         private System.Windows.Forms.PictureBox pb_FotoUsu;
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.Button btn_VoltarCadUsu;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_Foto;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }
